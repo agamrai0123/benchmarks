@@ -9,7 +9,7 @@ import (
 
 func main() {
 	bufferSizes := []int{
-		1024,
+		1024,             // 1 KB
 		2 * 1024,         // 2 KB
 		4 * 1024,         // 4 KB
 		8 * 1024,         // 8 KB
