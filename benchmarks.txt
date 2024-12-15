@@ -1,0 +1,18 @@
+Basic scanner       := 26.287806,
+Buffer size: 1024 bytes, Time: 36.038438 seconds
+Buffer size: 2048 bytes, Time: 25.941715 seconds
+Buffer size: 4096 bytes, Time: 22.870842 seconds
+Buffer size: 8192 bytes, Time: 21.612630 seconds
+Buffer size: 16384 bytes, Time: 21.469456 seconds
+Buffer size: 32768 bytes, Time: 21.852900 seconds
+Buffer size: 65536 bytes, Time: 24.058396 seconds
+Buffer size: 131072 bytes, Time: 20.602202 seconds
+Buffer size: 262144 bytes, Time: 21.350887 seconds
+Buffer size: 524288 bytes, Time: 16.065240 seconds
+Buffer size: 1048576 bytes, Time: 15.128197 seconds
+Buffer size: 2097152 bytes, Time: 16.143949 seconds
+Buffer size: 4194304 bytes, Time: 15.816650 seconds
+Buffer size: 8388608 bytes, Time: 15.641694 seconds
+Buffer size: 16777216 bytes, Time: 24.972559 seconds
+Buffer size: 33554432 bytes, Time: 22.969902 seconds
+Buffer size: 67108864 bytes, Time: 23.090251 seconds
