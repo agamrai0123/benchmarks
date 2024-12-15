@@ -1,5 +1,6 @@
 Basic scanner       := 26.287806,
 
+#Test scanner.Bytes()
 Buffer size: 1024 bytes, Time: 36.038438 seconds        // 1 KB
 Buffer size: 2048 bytes, Time: 25.941715 seconds        // 2 KB
 Buffer size: 4096 bytes, Time: 22.870842 seconds        // 4 KB
@@ -17,3 +18,21 @@ Buffer size: 8388608 bytes, Time: 15.641694 seconds     // 8 MB
 Buffer size: 16777216 bytes, Time: 24.972559 seconds    // 16 MB
 Buffer size: 33554432 bytes, Time: 22.969902 seconds    // 32 MB
 Buffer size: 67108864 bytes, Time: 23.090251 seconds    // 64 MB
+
+#Test 2 scanner.Bytes()
+Buffer size: 524288 bytes, Time: 14.936945 seconds
+Buffer size: 1048576 bytes, Time: 16.738113 seconds
+Buffer size: 2097152 bytes, Time: 17.312495 seconds
+Buffer size: 4194304 bytes, Time: 14.877113 seconds
+Buffer size: 8388608 bytes, Time: 16.420127 seconds
+
+#Test scanner.Text()
+Buffer size: 524288 bytes, Time: 20.714429 seconds
+Buffer size: 1048576 bytes, Time: 20.147078 seconds
+Buffer size: 2097152 bytes, Time: 20.220993 seconds
+Buffer size: 4194304 bytes, Time: 19.739805 seconds
+Buffer size: 8388608 bytes, Time: 20.046166 seconds
+
+#Test bufio.NewReader(file)
+reader.ReadByte() Time: 41.607789 seconds
+reader.ReadLine() Time: 21.514688 seconds
